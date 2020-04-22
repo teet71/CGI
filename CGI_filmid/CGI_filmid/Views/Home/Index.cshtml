@@ -1,0 +1,21 @@
+﻿@using System.Web.Optimization
+
+@{ 
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @Styles.Render("~/Content/Angular")
+</head>
+<body>
+    <div>
+        <FilmTable></FilmTable>
+    </div>
+    @Scripts.Render("~/bundles/Angular")
+</body>
+</html>
